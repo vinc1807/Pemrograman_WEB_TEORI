@@ -1,0 +1,168 @@
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1130px;
+    min-height: 500px;
+}
+
+.menu-item{
+    color: white;
+    margin-left: 1px;
+    margin-top: 25px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.menu-search{
+    outline: none;
+    border: none;
+    color:white;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 32px;
+    padding: 5px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background:rgba(250, 250, 250, 0.3);
+}
+
+.title-image{
+    margin-left: 140px;
+    top: 188px;
+    position: absolute;
+    color: #92191d;  
+}
+
+.description-image{
+    margin-left: 140px;
+    margin-top:210px;
+    position: absolute;
+    font-size: 21px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #DB292F;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+.slide{
+    height: 500px;
+    width: 100%;
+    background: url('../image/wuri.jpg');
+    background-size: 100% 115%;
+    border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+li{
+    float:left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  li .menu-item {
+    margin-left: 1px;
+    margin-top: 25px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+div.row{
+    margin-top: 3rem;
+    margin-bottom: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button{
+    margin-inline-start: 26rem;
+    border-radius: 8px;
+    border-color: white;
+    background-color: white;
+    ;
+}
+
+.slide{
+   background-image: url("wuri.jpg"); 
+   background-size: 100% 115%;
+   border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.catalog{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 25px;
+}
+
+.column {
+    float: left;
+    width: 21%;
+    margin-top: 50px;
+    margin-left: 20px;
+
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.prestasi{
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  .lokasi{
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
+  .fasilitas{
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+
+  .virtual{
+    margin-top: -75px;
+    margin-left: 75px;
+  }
+
+  .catalog-column:hover{
+    margin-top: -5px;
+    padding: 20px;
+    background: #811518;
+    color:#fff;
+    border-radius: 25px;
+  }
+
+  .menu2{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
